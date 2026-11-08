@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#8d2348">
+  <meta name="description" content="دموی فروشگاه زیبایی گیسو؛ محصولات آرایشی، بهداشتی و عطر">
+  <title>گیسو بیوتی | فروشگاه زیبایی</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement">✦ &nbsp; به دنیای زیبایی گیسو خوش اومدی &nbsp; ✦ <span>این سایت نسخه نمایشی است</span></div>
+  <header class="header">
+    <div class="header-main container">
+      <a href="#top" class="brand" aria-label="گیسو بیوتی، صفحه اصلی"><img src="5.jpg" alt="لوگوی گیسو بیوتی"><span><strong>گیسو بیوتی</strong><small>G I S O O &nbsp; B E A U T Y</small></span></a>
+      <form class="search" id="searchForm"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="دنبال چه محصولی می‌گردی؟" aria-label="جستجوی محصول"><button type="submit">جستجو</button></form>
+      <div class="header-actions"><a class="header-link" href="#about">♡ <span>درباره گیسو</span></a><button class="cart-button" id="openCart" aria-label="باز کردن سبد خرید">♧ <span>سبد خرید</span><b id="cartCount">۰</b></button></div>
+    </div>
+    <nav class="nav container" aria-label="منوی اصلی"><a href="#top" class="active">خانه</a><a href="#products" data-filter="all">همه محصولات</a><a href="#products" data-filter="makeup">آرایشی</a><a href="#products" data-filter="skin">مراقبت پوست</a><a href="#products" data-filter="perfume">عطر و ادکلن</a><a href="#about">درباره ما</a><span>♡ زیبایی، اعتماد به نفس توست</span></nav>
+  </header>
+  <main id="top">
+    <section class="intro container">
+      <div class="intro-copy"><div class="eyebrow"><span></span> زیبایی از حال خوب شروع می‌شه</div><h1>زیبایی تو،<br><em>قصه‌ی گیسو</em></h1><p>یک انتخاب قشنگ برای لحظه‌های قشنگ‌تر؛ دنیای محصولات آرایشی، مراقبتی و عطر را در گیسو کشف کن.</p><div class="intro-buttons"><a href="#products" class="button primary">بریم سراغ محصولات <span>←</span></a><a href="#categories" class="button ghost">دسته‌بندی‌ها</a></div><div class="intro-note"><span>✿</span> با عشق، برای زیباییِ منحصر‌به‌فرد تو</div></div>
+      <div class="hero-img"><img src="1.jpg" alt="چیدمان نمونه محصولات آرایشی و عطر"><div class="hero-tag">BEAUTY<br><strong>starts with you.</strong></div></div>
+    </section>
+    <section class="features container" aria-label="ویژگی‌های فروشگاه"><div><i>✧</i><span><b>انتخاب‌های دوست‌داشتنی</b><small>برای هر سلیقه و روتین</small></span></div><div><i>♧</i><span><b>دنیای متنوع زیبایی</b><small>آرایشی، بهداشتی و عطر</small></span></div><div><i>♡</i><span><b>همراه لحظه‌های تو</b><small>از انتخاب تا زیبایی</small></span></div><div><i>✿</i><span><b>ساده و لذت‌بخش</b><small>یک تجربه خرید متفاوت</small></span></div></section>
+    <section class="section container" id="categories"><div class="section-head"><div><small>EXPLORE BEAUTY</small><h2>دنیای زیبایی رو کشف کن <span>✦</span></h2><p>هر چیزی که برای درخشیدن نیاز داری، همین‌جاست.</p></div><a href="#products" class="text-link" data-filter="all">مشاهده همه محصولات ←</a></div><div class="categories"><a href="#products" class="category" data-filter="makeup"><img src="3.jpg" alt=""><div><small>MAKEUP</small><h3>محصولات آرایشی</h3><span>مشاهده محصولات ←</span></div></a><a href="#products" class="category" data-filter="skin"><img src="2.jpg" alt=""><div><small>SKINCARE</small><h3>مراقبت پوست</h3><span>مشاهده محصولات ←</span></div></a><a href="#products" class="category" data-filter="perfume"><img src="4.jpg" alt=""><div><small>FRAGRANCE</small><h3>عطر و ادکلن</h3><span>مشاهده محصولات ←</span></div></a></div></section>
+    <section class="section products-section" id="products"><div class="container"><div class="section-head"><div><small>GISOO BEAUTY PICKS</small><h2>محصولات منتخب گیسو <span>✦</span></h2><p>یه انتخاب قشنگ برای خودت یا کسی که دوستش داری</p></div><div class="tabs" role="group" aria-label="دسته‌بندی محصولات"><button class="tab selected" data-filter="all">همه</button><button class="tab" data-filter="makeup">آرایشی</button><button class="tab" data-filter="skin">پوست</button><button class="tab" data-filter="perfume">عطر</button></div></div><p class="demo-note">تصاویر، محصولات و قیمت‌ها صرفاً نمونه و نمایشی هستند.</p><div class="products" id="productGrid"></div><p class="empty hidden" id="emptyResults">محصولی پیدا نشد؛ جستجو یا دسته‌بندی دیگری را امتحان کن.</p></div></section>
+    <section class="promo container"><div><small>YOUR DAILY DOSE OF BEAUTY</small><h2>برای خودت وقت بذار،<br>تو لایق درخشیدنی ♡</h2><p>از روتین مراقبت پوست تا عطر موردعلاقه‌ات، گیسو کنار توست.</p><a href="#products" class="button primary">محصولات رو ببین ←</a></div><img src="2.jpg" alt="تصویر نمونه محصولات مراقبت پوست"></section>
+    <section class="about container" id="about"><div class="about-icon">♡</div><div><small>A LITTLE ABOUT US</small><h2>به دنیای گیسو خوش اومدی</h2><p>گیسو بیوتی، جایی برای عاشقان زیبایی و حال خوب است. این صفحه یک نمونه طراحی فروشگاه است و متن‌ها، تصاویر محصولات و قیمت‌ها برای نمایش قرار گرفته‌اند.</p></div><a href="#top" class="text-link">برگردیم بالا ↑</a></section>
+  </main>
+  <footer><div class="container footer-content"><div class="footer-brand"><div class="brand"><img src="5.jpg" alt=""><span><strong>گیسو بیوتی</strong><small>GISOO BEAUTY</small></span></div><p>زیبایی، اعتماد به نفس توست ♡</p></div><div><b>دسترسی سریع</b><a href="#products">محصولات</a><a href="#categories">دسته‌بندی‌ها</a><a href="#about">درباره گیسو</a></div><div><b>همراه گیسو باش</b><p>این سایت یک دمو است؛ اطلاعات تماس و شبکه‌های اجتماعی بعداً اضافه می‌شوند.</p></div></div><div class="footer-bottom">طراحی شده با عشق برای گیسو بیوتی ♡ <span>نسخه نمایشی — بدون پرداخت واقعی</span></div></footer>
+  <div class="overlay hidden" id="overlay"></div><aside class="cart-panel" id="cartPanel" aria-label="سبد خرید" aria-hidden="true"><div class="cart-header"><div><small>YOUR BEAUTY BAG</small><h2>سبد خرید شما ♡</h2></div><button id="closeCart" class="close" aria-label="بستن سبد خرید">×</button></div><div class="cart-items" id="cartItems"></div><div class="cart-footer"><div><strong>جمع کل</strong><strong id="cartTotal">۰ تومان</strong></div><button id="checkout" class="button primary checkout">ادامه ثبت سفارش</button><p>این سایت دمو است و سفارش یا پرداخت واقعی ندارد.</p></div></aside>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body></html>
